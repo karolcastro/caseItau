@@ -5,7 +5,7 @@
 # Sobre o projeto
 
 Você é uma engenheira de sistemas que será encarregada por analisar e construir uma inciativa de modernização de um legado dos sistemas de recuperação de crédito. A Plataforma atual é um sistema
-monolítico, com alto acoplamento entre sistemas e que se utiliza primariamente de processamento batchpara prover as informações aos canais on-line do banco.
+monolítico, com alto acoplamento entre sistemas e que se utiliza primariamente de processamento batch para prover as informações aos canais on-line do banco.
 
 O seu desafio como engenheira de sistemas será desenhar uma proposta de solução técnica (apresente peças técnicas e o papel de cada uma delas) de forma que resolva a necessidade de negócio. 
 
