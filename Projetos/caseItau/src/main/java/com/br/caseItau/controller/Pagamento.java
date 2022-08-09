@@ -1,6 +1,5 @@
 package com.br.caseItau.controller;
 
-import com.br.caseItau.DTO.PagamentoDTO;
 import com.br.caseItau.DTO.RespostaPagamentoDTO;
 import com.br.caseItau.DTO.SolicitacaoPagamentoDTO;
 import com.br.caseItau.service.PagamentoService;
@@ -22,7 +21,8 @@ public class Pagamento {
     @RequestMapping(method = RequestMethod.POST)
     public ResponseEntity<RespostaPagamentoDTO> efetuarPagamento(
             @Valid @RequestBody SolicitacaoPagamentoDTO solicitacaoPagamentoDTO) {
-        return new ResponseEntity<RespostaPagamentoDTO>((MultiValueMap<String, String>) pagamentoService.realizarPagamento(solicitacaoPagamentoDTO), HttpStatus.CREATED);
+        return new ResponseEntity<RespostaPagamentoDTO>((MultiValueMap<String, String>)
+                pagamentoService.realizarPagamento(solicitacaoPagamentoDTO), HttpStatus.CREATED);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)

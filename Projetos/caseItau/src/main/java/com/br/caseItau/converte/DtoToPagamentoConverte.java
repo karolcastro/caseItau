@@ -21,7 +21,7 @@ public class DtoToPagamentoConverte implements Converter<PagamentoDTO, Pagamento
             if (ObjectUtils.isEmpty(pagamentoDTO.getCartao())) {
                 throw new CartaoNuloException();
             }
-            pagamento.setCartao(cartaoConverte.convert(pagamentoDTO.getCartao()));
+            //pagamento.setCartao(cartaoConverte.convert(pagamentoDTO.getCartao()));
         }
 
         pagamento.setForma(pagamentoDTO.getFormaPagamento());

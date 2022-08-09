@@ -8,10 +8,8 @@ public class CartaoDTO {
 
     @NotEmpty
     private String name;
-
     @NotEmpty
     private String number;
-
     @NotNull
     private LocalDate validateDate;
 
