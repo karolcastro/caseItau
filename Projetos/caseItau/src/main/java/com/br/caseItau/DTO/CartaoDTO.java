@@ -3,7 +3,6 @@ package com.br.caseItau.DTO;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
-import java.util.Objects;
 
 public class CartaoDTO {
 
