@@ -15,6 +15,7 @@ Foi escolhido trabalhar com o desacoplamento do microservico de pagamentos, já 
 ![Captura de Tela 2022-08-09 às 16 48 26](https://user-images.githubusercontent.com/49079797/183748130-7733e71d-bc7b-4a9b-b127-fec5d82ec165.png)
 
 ## Modelo conceitual
+Utilizado o modelo C4 que é uma técnica de notação gráfica enxuta para modelar a arquitetura de sistemas de software.
 ![Captura de Tela 2022-08-09 às 16 40 03](https://user-images.githubusercontent.com/49079797/183747157-68ccfcb7-f676-4036-90f7-cb6bb1b60654.png)
 
 # Tecnologias utilizadas
